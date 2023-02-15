@@ -1,2 +1,2 @@
 #!/bin/bash
-cat /etc/passwd | grep -E "[^a-z]+bin[^a-z]+|^bin|^bin$" | wc -l
+cat /etc/passwd | grep -E "bin" | wc -l
