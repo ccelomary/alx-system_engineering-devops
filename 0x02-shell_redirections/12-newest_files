@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -t --time=creation | head
+ls -t --time=creation  | head -n 10
